@@ -1,0 +1,48 @@
+@import '../../utils/styles.css';
+
+.popup {
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    max-width: 18rem;
+    height: 10rem;
+    margin: 25vh auto;
+    padding: 1.5rem;
+
+    background-color: var(--white);
+    border-radius: 1rem;
+    box-shadow: 0 0 0 200rem rgba(0, 0, 0, 0.767);
+}
+
+.popup__addoffer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 12rem;
+    height: 3rem;
+    padding: 0 1rem;
+    margin: 0 auto;
+    margin-top: 2rem;
+
+    border-radius: 1.5rem;
+    background-color: var(--primary);
+    color: white;
+    text-decoration: none;
+}
+
+.popup__icon {
+    height: 1rem;
+    margin: auto .5rem;
+}
+
+.popup__text {
+    margin: auto .5rem;
+    padding-bottom: .1rem;
+}
+
+.popup__home {
+    color: var(--black);
+    margin-top: 1.5rem;
+}
